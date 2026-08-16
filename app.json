@@ -1,8 +1,7 @@
 {
   "expo": {
-    "name": "Agon Preview",
-    "slug": "agon-preview",
-    "version": "1.0.0",
+    "name": "Pulse 30",
+    "slug": "pulse-30"
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
