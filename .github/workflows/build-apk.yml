@@ -11,11 +11,10 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 18
-      - uses: expo/expo-github-action@v8
-        with:
-          eas-version: latest
-          token: ${{ secrets.EXPO_TOKEN }}
+      - run: npm install -g eas-cli
       - run: npm install
       - run: eas build -p android --profile preview --non-interactive
+      
+      
       
       
